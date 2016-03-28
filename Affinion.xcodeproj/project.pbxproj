@@ -15,6 +15,13 @@
 		12FA669A1CA1FC830066D698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FA66981CA1FC830066D698 /* LaunchScreen.storyboard */; };
 		12FA66A51CA1FC830066D698 /* AffinionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FA66A41CA1FC830066D698 /* AffinionTests.swift */; };
 		12FA66B01CA1FC830066D698 /* AffinionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FA66AF1CA1FC830066D698 /* AffinionUITests.swift */; };
+		12FA66C11CA1FCD80066D698 /* WindowsAzureMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FA66BF1CA1FCD80066D698 /* WindowsAzureMessaging.framework */; };
+		12FA66C61CA1FF430066D698 /* ClassTransmistslogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FA66C51CA1FF430066D698 /* ClassTransmistslogs.swift */; };
+		12FA66C81CA2051A0066D698 /* SiteClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FA66C71CA2051A0066D698 /* SiteClass.swift */; };
+		12FA66CA1CA205580066D698 /* VendorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FA66C91CA205580066D698 /* VendorClass.swift */; };
+		12FA66CC1CA207500066D698 /* TransmistsLogsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FA66CB1CA207500066D698 /* TransmistsLogsTableViewController.swift */; };
+		12FA66CE1CA210A70066D698 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FA66CD1CA210A70066D698 /* WindowsAzureMobileServices.framework */; };
+		12FA66D11CA210E90066D698 /* LogsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FA66D01CA210E90066D698 /* LogsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,14 @@
 		12FA66AB1CA1FC830066D698 /* AffinionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffinionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FA66AF1CA1FC830066D698 /* AffinionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffinionUITests.swift; sourceTree = "<group>"; };
 		12FA66B11CA1FC830066D698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12FA66BE1CA1FCB80066D698 /* Affinion-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Affinion-Bridging-Header.h"; sourceTree = "<group>"; };
+		12FA66BF1CA1FCD80066D698 /* WindowsAzureMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMessaging.framework; sourceTree = "<group>"; };
+		12FA66C51CA1FF430066D698 /* ClassTransmistslogs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassTransmistslogs.swift; sourceTree = "<group>"; };
+		12FA66C71CA2051A0066D698 /* SiteClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteClass.swift; sourceTree = "<group>"; };
+		12FA66C91CA205580066D698 /* VendorClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VendorClass.swift; sourceTree = "<group>"; };
+		12FA66CB1CA207500066D698 /* TransmistsLogsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransmistsLogsTableViewController.swift; sourceTree = "<group>"; };
+		12FA66CD1CA210A70066D698 /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
+		12FA66D01CA210E90066D698 /* LogsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12FA66CE1CA210A70066D698 /* WindowsAzureMobileServices.framework in Frameworks */,
+				12FA66C11CA1FCD80066D698 /* WindowsAzureMessaging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +96,10 @@
 		12FA66801CA1FC830066D698 = {
 			isa = PBXGroup;
 			children = (
+				12FA66CF1CA210D80066D698 /* TableViewCell */,
+				12FA66C41CA1FF120066D698 /* TableViewController */,
+				12FA66C31CA1FF050066D698 /* Classes */,
+				12FA66BD1CA1FCA50066D698 /* Frameworks */,
 				12FA668B1CA1FC830066D698 /* Affinion */,
 				12FA66A31CA1FC830066D698 /* AffinionTests */,
 				12FA66AE1CA1FC830066D698 /* AffinionUITests */,
@@ -126,6 +147,42 @@
 				12FA66B11CA1FC830066D698 /* Info.plist */,
 			);
 			path = AffinionUITests;
+			sourceTree = "<group>";
+		};
+		12FA66BD1CA1FCA50066D698 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12FA66CD1CA210A70066D698 /* WindowsAzureMobileServices.framework */,
+				12FA66BF1CA1FCD80066D698 /* WindowsAzureMessaging.framework */,
+				12FA66BE1CA1FCB80066D698 /* Affinion-Bridging-Header.h */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12FA66C31CA1FF050066D698 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				12FA66C51CA1FF430066D698 /* ClassTransmistslogs.swift */,
+				12FA66C71CA2051A0066D698 /* SiteClass.swift */,
+				12FA66C91CA205580066D698 /* VendorClass.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		12FA66C41CA1FF120066D698 /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				12FA66CB1CA207500066D698 /* TransmistsLogsTableViewController.swift */,
+			);
+			name = TableViewController;
+			sourceTree = "<group>";
+		};
+		12FA66CF1CA210D80066D698 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				12FA66D01CA210E90066D698 /* LogsTableViewCell.swift */,
+			);
+			name = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +253,7 @@
 				TargetAttributes = {
 					12FA66881CA1FC830066D698 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SF4V2H9JYY;
 					};
 					12FA669F1CA1FC830066D698 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -259,9 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12FA66CA1CA205580066D698 /* VendorClass.swift in Sources */,
 				12FA66951CA1FC830066D698 /* Affinion.xcdatamodeld in Sources */,
+				12FA66D11CA210E90066D698 /* LogsTableViewCell.swift in Sources */,
 				12FA668F1CA1FC830066D698 /* ViewController.swift in Sources */,
+				12FA66CC1CA207500066D698 /* TransmistsLogsTableViewController.swift in Sources */,
+				12FA66C81CA2051A0066D698 /* SiteClass.swift in Sources */,
 				12FA668D1CA1FC830066D698 /* AppDelegate.swift in Sources */,
+				12FA66C61CA1FF430066D698 /* ClassTransmistslogs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,10 +466,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Affinion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CreateApp.Affinion;
+				PRODUCT_BUNDLE_IDENTIFIER = CreateApp.Affinion.zerovariance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Affinion-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -414,10 +485,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Affinion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CreateApp.Affinion;
+				PRODUCT_BUNDLE_IDENTIFIER = CreateApp.Affinion.zerovariance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Affinion-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -488,6 +567,7 @@
 				12FA66B61CA1FC830066D698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12FA66B71CA1FC830066D698 /* Build configuration list for PBXNativeTarget "AffinionTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +576,7 @@
 				12FA66B91CA1FC830066D698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12FA66BA1CA1FC830066D698 /* Build configuration list for PBXNativeTarget "AffinionUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +585,7 @@
 				12FA66BC1CA1FC830066D698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
